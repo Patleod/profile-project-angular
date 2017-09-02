@@ -1,3 +1,9 @@
+# Project 
+
+Creating a Front-End for Your User Profile Store With Angular and TypeScript
+
+link: https://dzone.com/articles/creating-a-front-end-for-your-user-profile-store-w?edition=321391&utm_source=Daily%20Digest&utm_medium=email&utm_campaign=Daily%20Digest%202017-09-01
+
 # ProfileProjectAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
