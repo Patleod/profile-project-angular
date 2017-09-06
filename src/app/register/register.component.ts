@@ -22,10 +22,12 @@ export class RegisterComponent {
             let headers = new Headers({ "content-type": "application/json" });
             let options = new RequestOptions({ headers: headers });
             this.http.post("http://localhost:3000/account", JSON.stringify(this.input), options)
-                .map(result => result.json())
-                .subscribe(result => {
-                    this.router.navigate(["/login"]);
-                });
+            .map(result => result.json())
+            .subscribe(result => {
+                this.router.navigate(["/login"]);
+            }), err => {
+                console.log(err);
+            }
         }
     }
 }
